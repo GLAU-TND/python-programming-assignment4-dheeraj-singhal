@@ -1,0 +1,9 @@
+s = input()
+ls = eval(input())
+a = []
+
+for i in ls:
+    if i.startswith(s) == True:
+        a.append(i)
+
+print(a)

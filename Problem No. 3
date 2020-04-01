@@ -1,5 +1,5 @@
-s = input()
 ls = eval(input())
+s = input()
 a = []
 
 for i in ls:

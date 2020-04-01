@@ -1,7 +1,6 @@
 ls = eval(input())
 s = input()
 a = []
-
 for i in ls:
     if i.startswith(s) == True:
         a.append(i)
